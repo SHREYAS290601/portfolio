@@ -1,21 +1,26 @@
-import React from 'react'
-import Navbar from './section/navbar'
-import Hero from './section/Hero'
+import React from "react";
+import Navbar from "./section/navbar";
+import Hero from "./section/Hero";
+import About from "./section/About";
+import Projects from "./section/Projects";
+import Experiences from "./section/Experiences";
+import Testemonials from "./section/Testemonials";
+import Contact from "./section/Contact";
+import Footer from "./section/fOOTER.JSX";
 
 function App() {
   return (
-    <div className='container mx-auto max-w-7xl'>
+    <div className="container mx-auto max-w-7xl">
       <Navbar />
       <Hero />
-      <section className='min-h-screen'></section>
-      {/* about */}
-      {/* projects */}
-      {/* experience */}
-      {/* testimonials */}
-      {/* contact */}
-      {/* footer */}
+      <About />
+      <Projects />
+      <Experiences />
+      <Testemonials /> 
+      <Contact />      
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -13,12 +13,6 @@ function Navigation() {
             <a href="#projects" className='nav-link'>Projects</a>
         </li>
         <li className='nav-li'>
-            <a href="#experience" className='nav-link'>Experience</a>
-        </li>
-        <li className='nav-li'>
-            <a href="#testimonials" className='nav-link'>Testimonials</a>
-        </li>
-        <li className='nav-li'>
             <a href="#contact" className='nav-link'>Contact</a>
         </li>
     </ul>
@@ -26,10 +20,10 @@ function Navigation() {
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    return <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary">
+    return <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
         <div className="mx-auto c-space max-w-7xl">
             <div className="flex items-center justify-between py-2 sm:py-0">
-                <a href="/" className="text-xl font-bold transition-colors text-neutral-400 hover:text-green-300">
+                <a href="/" className="text-300 font-bold transition-colors text-neutral-400 hover:text-green-300">
                     Shreyas
                 </a>
                 <button
